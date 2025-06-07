@@ -21,6 +21,6 @@
 --
 ## 🗄️ Database Setup
 
-1. **Create the database** – run the SQL script `db/OrasimosBeekeeping.sql` (e.g. via the quick‑start command in step 3 or through phpMyAdmin).
-2. **Configure the connection** – open **`appsettings.json`** and adjust the `DbConnection` section (host, port, dbName, user, password) so it matches your local or production environment.
-
+1. **Create the database** – run the SQL script `db/OrasimosBeekeeping.sql` (e.g. via MySql Workbench or through phpMyAdmin).
+2. **Configure the connection** – open **`appsettings.json`** and adjust the `DbConnection` section (host, port, dbName, user, password) so it matches your environment.
+3. **Database data** - feel free to insert your own products and producttypes by using the included scripts (Products.sql and ProductTypes.sql)
