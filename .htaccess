@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteEngine On
+RewriteBase /
+
+# skip real files/dirs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# rewrite /foo → index.php/foo
+RewriteRule ^(.+)$ index.php/$1 [L,QSA]
+
