@@ -22,7 +22,7 @@
 
 ## 🗄️ Database Setup
 
-| Area | Highlights |
+| Area | Instructions |
 |------|------------|
 | **Creating the database** | Run the SQL script `db/OrasimosBeekeeping.sql` (e.g. via MySql Workbench or through phpMyAdmin).
 | **Configuring the connection** | Open **`appsettings.json`** and adjust the `DbConnection` section (host, port, dbName, user, password) so it matches your environment.
