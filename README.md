@@ -17,3 +17,10 @@
 | **Responsive UI** | Built with Bootstrap 5 – works on desktop, tablet, mobile |
 | **Prepared Statements** | All SQL uses `mysqli` prepared queries → SQL‑Injection safe |
 | **OOP Architecture** | Namespaces, autoload with Composer, single DB connection |
+
+--
+## 🗄️ Database Setup
+
+1. **Create the database** – run the SQL script `db/OrasimosBeekeeping.sql` (e.g. via the quick‑start command in step 3 or through phpMyAdmin).
+2. **Configure the connection** – open **`appsettings.json`** and adjust the `DbConnection` section (host, port, dbName, user, password) so it matches your local or production environment.
+
